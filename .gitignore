@@ -1,0 +1,22 @@
+HELP.md
+build/
+allure-report/
+!**/src/main/**
+!**/src/test/**
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Gradle ###
+.gradle
+gradlew
+gradlew.bat
+settings.gradle
+/gradle/
+
+### Telegram notifications ###
+/notifications/allure-notifications-4.5.0.jar
+/notifications/draft.txt
